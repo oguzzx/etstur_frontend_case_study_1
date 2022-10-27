@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.otelcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.addotel {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.addotel h3 {
+  margin-left: 30px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.addotelform {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.addotelform label {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.addotelform input {
+  margin-top: 10px;
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.addotelform button {
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addotelform button:hover {
+  background-color: #45a049;
+}
+
+.otellist-container {
+  position: absolute;
+  top: 20px;
+  right: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.otel-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.otel-container .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.otel-container .buttons button {
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sort-container {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.sort-container select {
+  margin-left: 30px;
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+.sort-container option {
+  font-size: 20px;
+  color: #45a049;
+}
+
+.paginate{
+  position: absolute;
+ right: 400px;
+ top: 700px;
+}
+.paginate button{
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
