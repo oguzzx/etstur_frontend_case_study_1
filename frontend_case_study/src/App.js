@@ -29,6 +29,10 @@ function App() {
     console.log(pageNumber);
   };
 
+  const deleteOtel = (otel) => {
+    setOtels(otels.filter((o) => o.id !== otel.id));
+  };
+
   return (
     <div className="App">
       <OtelAdd
@@ -52,6 +56,7 @@ function App() {
         setOtels={setOtels}
         selects={selects}
         currentOtels={currentOtels}
+        deleteOtel={deleteOtel}
       />
       <Paginate
         otels={otels}

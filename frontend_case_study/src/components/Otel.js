@@ -1,6 +1,7 @@
 import React from "react";
+import {FaTimes} from 'react-icons/fa'
 
-function Otel({ otel, otels, setOtels, selects, key }) {
+function Otel({ otel, otels, setOtels, selects, key, deleteOtel }) {
   const increasePuan = (otel) => {
     otel.puan = parseInt(otel.puan) + 1;
     setOtels([...otels]);
@@ -18,6 +19,7 @@ function Otel({ otel, otels, setOtels, selects, key }) {
       <div className="buttons">
         <button onClick={() => increasePuan(otel)}>Puan Arttır</button>
         <button onClick={() => decreasePuan(otel)}>Puan Azalt</button>
+        <button onClick={() => deleteOtel(otel)}><FaTimes style={{color: 'red', cursor: 'pointer'}}/></button>
       </div>
     </div>
   );
