@@ -12,4 +12,5 @@ tıklanılan pagedeki otelleri gösterir
 
 ![image](https://user-images.githubusercontent.com/110103127/198336771-17045c22-3b4a-43a8-9e54-f72a3548439d.png)
 
-![image](https://user-images.githubusercontent.com/110103127/198337101-d8314d56-525c-466d-911a-8aee9459f428.png)
+![image](https://user-images.githubusercontent.com/110103127/198695603-32d979da-c19e-4c3b-91ec-8bdf72a4f5d8.png)
+
