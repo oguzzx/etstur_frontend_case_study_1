@@ -7,6 +7,9 @@ select kısmında ise otellerin puanlarına göre çoktan aza doğru veya azdan 
 oteller 5 otelde bir yeni page oluşturur ve ekranın altında pageler sıralanır 1 2 3 gibi  
 tıklanılan pagedeki otelleri gösterir 
 
+demo hali : https://friendly-strudel-2f5d1c.netlify.app
+NOT : bu projeyi yaparken sayfa ölçeğini %80 olarak unuttuğum için o ölçekte deneyebilirsiniz %100 halinde css kısmı yana kaymış bir şekilde gözüküyor 
+
 
 
 
