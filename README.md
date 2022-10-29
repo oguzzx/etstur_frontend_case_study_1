@@ -9,7 +9,7 @@ tıklanılan pagedeki otelleri gösterir
 
 demo hali : https://tourmaline-pudding-99a0df.netlify.app
 NOT : bu projeyi yaparken sayfa ölçeğini %80 olarak unuttuğum için o ölçekte deneyebilirsiniz %100 halinde css kısmı yana kaymış bir şekilde gözüküyor 
-
+ 
 
 
 
