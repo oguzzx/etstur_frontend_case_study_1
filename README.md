@@ -5,7 +5,7 @@ girilen otel isimleri ve puanlar sayfanın sağ tarafına sıralanıyor
 puan arttır veya puan azalt butonları ise otelin puanlarının artırılması ve azaltılması için kullanılır
 select kısmında ise otellerin puanlarına göre çoktan aza doğru veya azdan çoğa doğru sıralanır
 oteller 5 otelde bir yeni page oluşturur ve ekranın altında pageler sıralanır 1 2 3 gibi  
-tıklanılan pagedeki otelleri gösterir
+tıklanılan pagedeki otelleri gösterir 
 
 
 
